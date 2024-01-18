@@ -6,7 +6,6 @@ using Agnes.Laurencon.FeatureMatching;
 
 Console.WriteLine("Hello, World!");
 
-// Path: src/Agnes.Laurecon.FeatureMatching.Console/Program.cs
 
 var executingAssemblyPath = Assembly.GetExecutingAssembly().Location;
 var executingPath = Path.GetDirectoryName(executingAssemblyPath);

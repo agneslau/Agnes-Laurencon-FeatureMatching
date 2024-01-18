@@ -7,14 +7,6 @@ public class ObjectDetection
     public Task<IList<ObjectDetectionResult>> DetectObjectInScenesAsync(byte[]
         objectImageData, IList<byte[]> imagesSceneData)
     {
-        /*var results = new List<ObjectDetectionResult>();
-        foreach (var imageSceneData in imagesSceneData)
-        {
-            var result = DetectObjectInScene(objectImageData, imageSceneData);
-            results.Add(result);
-        }
-        return Task.FromResult((IList<ObjectDetectionResult>)results);*/
-        
         var tasks = new List<Task<ObjectDetectionResult>>();
 
         foreach (var imageSceneData in imagesSceneData)
@@ -68,10 +60,10 @@ public class ObjectDetection
         var drawingPoints = img2BoundsTransformed.Select(p => (Point) p).ToArray();
         Cv2.Polylines(view, new []{drawingPoints}, true, Scalar.Red, 3);
         // Uncomment to see the image result
-        /*
-        using (new Window("view", view))
+        
+        /*using (new Window("view", view))
         {
-        Cv2.WaitKey();
+            Cv2.WaitKey();
         }
         */
 
