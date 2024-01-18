@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnes.Laurencon.FeatureMatching", "src\Agnes.Laurencon.FeatureMatching\Agnes.Laurencon.FeatureMatching.csproj", "{5B0F119E-4C49-4CB2-BD06-BFBCD4EFB283}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnes.Laurencon.FeatureMatching.Tests", "test\Agnes.Laurencon.FeatureMatching.Tests\Agnes.Laurencon.FeatureMatching.Tests.csproj", "{D2DEABD8-CCFB-4471-8CD7-D3B68B82D1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnes.Laurecon.FeatureMatching.Console", "src\Agnes.Laurecon.FeatureMatching.Console\Agnes.Laurecon.FeatureMatching.Console.csproj", "{FF19D7C3-541B-434F-9E2F-8CF9743D68DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agnes.Laurencon.FeatureMatching.WebApi", "src\Agnes.Laurencon.FeatureMatching.WebApi\Agnes.Laurencon.FeatureMatching.WebApi.csproj", "{895FAFD7-32DA-45F6-AC36-038560E8B240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B0F119E-4C49-4CB2-BD06-BFBCD4EFB283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0F119E-4C49-4CB2-BD06-BFBCD4EFB283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0F119E-4C49-4CB2-BD06-BFBCD4EFB283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0F119E-4C49-4CB2-BD06-BFBCD4EFB283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DEABD8-CCFB-4471-8CD7-D3B68B82D1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DEABD8-CCFB-4471-8CD7-D3B68B82D1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DEABD8-CCFB-4471-8CD7-D3B68B82D1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DEABD8-CCFB-4471-8CD7-D3B68B82D1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF19D7C3-541B-434F-9E2F-8CF9743D68DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF19D7C3-541B-434F-9E2F-8CF9743D68DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF19D7C3-541B-434F-9E2F-8CF9743D68DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF19D7C3-541B-434F-9E2F-8CF9743D68DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{895FAFD7-32DA-45F6-AC36-038560E8B240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{895FAFD7-32DA-45F6-AC36-038560E8B240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{895FAFD7-32DA-45F6-AC36-038560E8B240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{895FAFD7-32DA-45F6-AC36-038560E8B240}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
